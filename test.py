@@ -10,9 +10,9 @@ def prt():
     for i in range(2):
         if i == 1:
             if precipitation <= 30:
-                print(a[i][0])
+                print(f"강수 확률은 {precipitation}입니다. {a[i][0]}")
             else:
-                print(a[i][1])
+                print(f"강수 확률은 {precipitation}입니다. {a[i][1]}")
         elif i == 0:
             print("오늘은 "+str(celsius)+a[i][random.randint(0,2)])
         
@@ -38,9 +38,9 @@ def prt():
     for i in range(2):
         if i == 1:
             if precipitation <= 30:
-                print(a[i][0])
+                print(f"강수 확률은 {precipitation}입니다. {a[i][0]}")
             else:
-                print(a[i][1])
+                print(f"강수 확률은 {precipitation}입니다. {a[i][1]}")
         elif i == 0:
             print("오늘은 "+str(celsius)+a[i][random.randint(0,2)])
         
